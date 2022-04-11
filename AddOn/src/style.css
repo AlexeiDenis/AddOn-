@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray-9);
+}
+.cointainer {
+  height: max-content;
+  width: max-content;
+  padding: 5px;
+  background-color: var(--gray-9);
+  color: var(--gray-2);
+  font-size: 0.7rem;
+  font-weight: var(--font-weight-9);
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  font-size: 2.2rem;
+  color: var(--indigo-5);
+  width: max-content;
+  height: fit-content;
+  bottom: -2%;
+  left: 5%;
+  background-color: hsla(0, 0%, 0%, 0.7);
+  cursor: pointer;
+}
+button {
+  border-radius: 4px;
+  background-color: var(--teal-6);
+  cursor: pointer;
+  width: max-content;
+  margin: 0;
+  color:white;
+  padding: .8em;
+  border: none;
+  font-family: var(--font-mono);
+  outline: none;
+  text-align: center;
+  position:absolute;
+  right:12px;
+  bottom:11px;
+}
+button:hover{background-color: var(--teal-7);}
+.usefulevrt {
+  border: 1px dashed var(--teal-7);
+  position:relative;
+  border-radius:11px;
+}
