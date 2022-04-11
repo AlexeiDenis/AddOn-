@@ -1,4 +1,4 @@
-# CSS Reset StyleSheet
+# 🤓 CSS Reset StyleSheet
 > An extension with a useful stysheet that makes life easier
 
-![ShowCase](icons/showcase.mp4)
+![ShowCase](AddOn/icons/showcase.mp4)
